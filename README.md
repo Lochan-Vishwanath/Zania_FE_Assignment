@@ -1,8 +1,8 @@
 # Zania FE Assignment
 
-To run the project run `npm run dev`
+To run the project, install using `npm i` and then run `npm run dev`.
 
-This is a React + Typescript Project.
+## This is a React + Typescript Project.
+
 Image loading part is simulated through a timeout function.
-
 I have use `onDragStart`, `onDragOver` & `onDrop` to achieve the drag and drop feature.
