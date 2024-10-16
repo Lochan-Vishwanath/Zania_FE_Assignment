@@ -1,0 +1,52 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-evenly;
+}
+
+.card {
+  flex: 0 1 calc(30%); /* Three cards in a row */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.image-container {
+  position: relative; /* To position loader and image */
+  padding: 1rem;
+  height: 400px;
+  overflow: hidden;
+}
+
+.image-container img {
+  width: 100%; /* Make image fill the width of the container */
+  max-height: 400px;
+  object-fit: cover;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+}
+
+.error {
+   color: red; /* Error message styling */
+   margin-top: .5rem; /* Spacing for error message */
+}
+
+.overlay {
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   background-color: rgba(0,0,0,0.8);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.overlay img {
+   max-width:90%;
+}
